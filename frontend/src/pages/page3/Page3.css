@@ -1,0 +1,41 @@
+.App3 {
+  background-color: #33002c;
+  color: white;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  height: 130vh;
+  padding: 20px;
+
+}
+.App3 p{
+  text-align: justify;
+  font-size: 20px;
+}
+
+.App3 h1{
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.App3 h2{
+  font-size: 30px;
+}
+
+.App3 a{
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.App3 h3{
+  font-size: 20px;
+}
+
+.App3 .home {
+  display: flex;
+  width: 100%;
+
+}

@@ -1,0 +1,85 @@
+body{
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
+}
+
+.App1 {
+  background-color: #33002c;
+  color: white;
+  height: 110vh;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  padding: 20px;
+}
+.App1 h1{
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+.App1 p{
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+.App1 h3{
+  font-size: 23px;
+}
+.App1 ::placeholder{
+  color:#45003b;
+}
+.App1 input{
+  width: 300px;
+  height: 30px;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.App1 a{
+font-size: 20px;
+color: white;
+text-decoration: none;
+margin-bottom: 20px;
+}
+
+.App1 .botao{
+  font-family: 'Times New Roman', Times, serif;
+  padding: 2px;
+  color:#20001c;
+  background-color: #fefdff;
+}
+.App1 button{
+  cursor: pointer;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  width: 120px;
+  height: 30px;
+  padding: 2px;
+  color:#20001c;
+  background-color: #fefdff;
+  margin-bottom: 30px;
+}
+.App1 form{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.App1 .lista{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  justify-items: center;
+  align-items: center;
+}
+.App1 .header{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}

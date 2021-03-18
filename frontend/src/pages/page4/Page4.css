@@ -1,0 +1,53 @@
+.App4 {
+  background-color: #33002c;
+  color: white;
+  height: 105vh;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+}
+.App4 .box{
+  height: 200px;
+  width: 300px;
+}
+
+.App4 form{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 25px;
+}
+
+.App4 input{
+  width: 300px;
+  height: 30px;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.App4 button{
+  cursor: pointer;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  width: 120px;
+  height: 30px;
+  padding: 2px;
+  color:#20001c;
+  background-color: #fefdff;
+  margin-bottom: 30px;
+}
+
+.App4 h1{
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+.App4 .home {
+  display: flex;
+  width: 100%;
+
+}
