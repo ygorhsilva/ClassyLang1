@@ -17,15 +17,15 @@ export default function Page1(){
       history.push(`/linguagens/${nome}`);
     }
   }
-    return(
+  return(
     <div className="App1">
       <div>
-      <h1>
-       ClassyLang
-      </h1>
-      <p>
-        Informações acerca de paradigmas de linguagens de programação
-      </p>
+        <h1>
+          ClassyLang
+        </h1>
+        <p>
+          Informações acerca de paradigmas de linguagens de programação
+        </p>
       </div>
       <form>
         <input value={nome} placeholder='Digite uma Linguagem' onChange={e => setNome(e.target.value)}></input>
@@ -33,13 +33,13 @@ export default function Page1(){
       </form>
       <Link className='botao' to='/addlinguagem'>Adicionar uma linguagem</Link>
       <div className='lista'>
-      <h3>Linguagens mais Procuradas</h3>
-      <Link to='/linguagens/python'>Python</Link>
-      <Link to='/linguagens/go'>Go</Link>
-      <Link to='/linguagens/r'>R</Link>
-      <Link to='/linguagens/javascript'>JavaScript</Link>
-      <Link to='/linguagens/c++'>C++</Link>
+        <h3>Linguagens mais Procuradas</h3>
+        <Link to='/linguagens/python'>Python</Link>
+        <Link to='/linguagens/go'>Go</Link>
+        <Link to='/linguagens/r'>R</Link>
+        <Link to='/linguagens/javascript'>JavaScript</Link>
+        <Link to='/linguagens/c++'>C++</Link>
+      </div>
     </div>
-  </div>
   )
 }

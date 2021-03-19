@@ -14,17 +14,10 @@ module.exports = {
         }
         return res.json(linguagens);
     },
-    async findOne(req,res){
-        const nome = req.params.nome;
-        const linguagens = await Linguagens.findOne({where: { nome: nome }});
-        if (!nome){
-            return res.status(400).json({error:'Linguagem não encontrada'})
-        }
-        return res.json(linguagens);
-    },
     async store(req,res){
         const {nome,paradigmas,descricao} = req.body;
         const linguagens = await Linguagens.create({nome,paradigmas,descricao});
         return res.json(linguagens);
     }
-};
+    
+}; 

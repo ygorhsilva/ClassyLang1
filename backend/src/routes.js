@@ -7,8 +7,8 @@ const routes = express.Router();
 
 routes.post('/linguagens/store', LinguagensController.store);
 routes.get('/linguagens/index', LinguagensController.index);
-routes.get('/linguagens/find', LinguagensController.find);
-routes.get('/linguagens/:nome', LinguagensController.findOne);
+routes.get('/linguagens/:nome', LinguagensController.find);
+
 
 
 routes.post('/linguagensAdd/store', LinguagensAddController.store);
